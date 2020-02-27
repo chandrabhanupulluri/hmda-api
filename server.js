@@ -13,11 +13,11 @@
 
  // connection configurations
  var dbConn = mysql.createConnection({
-    host: 'localhost',
+    host: 'udcas.cany4zpfhkrt.ap-south-1.rds.amazonaws.com',
     user: 'root',
-    password: 'root',
+    password: 'cba.1968',
     database: 'udcas',
-    port: 8889
+    port: 3306
 });
 // connect to database
 dbConn.connect(); 
